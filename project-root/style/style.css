@@ -1,0 +1,19 @@
+section {
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  #welcome {
+    background-image: url('');
+  }
+  
+  .about {
+    background-color: #fff;
+    color: #222;
+  }
+  
+  .skills {
+    background-color: #111;
+    color: #eee;
+  }
+  
