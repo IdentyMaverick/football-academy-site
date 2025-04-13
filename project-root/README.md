@@ -1,6 +1,6 @@
-# 🧤 Ersin Korkmaz Akademi - Goalkeeper Training Academy
+# 🧤 Goalkeeper Training Academy Website
 
-Welcome to the official repository of **Ersin Korkmaz Akademi** — a modern and forward-thinking goalkeeper training academy dedicated to developing the next generation of elite goalkeepers.  
+Welcome to the official repository of **Goalkeeper Training Academy Website** — a modern and forward-thinking goalkeeper training academy dedicated to developing the next generation of elite goalkeepers.  
 
 This project is a responsive, single-page website designed to showcase the academy’s mission, team, services, and achievements.
 
@@ -38,3 +38,35 @@ This project is a responsive, single-page website designed to showcase the acade
 │   └── script.js
 ├── index.html
 └── README.md
+```
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+```bash
+git clone https://github.com/yourusername/ersinkorkmaz-akademi.git
+cd ersinkorkmaz-akademi
+open index.html
+```
+
+💡 No build step is required — just open the HTML file in your browser.
+
+## 📈 Current Version
+v0.1.0-beta
+
+This version is in active development. Some sections and optimizations are still in progress.
+
+## 🙌 Contributors
+Osman Deniz Savaş
+
+Emin Dege
+
+## 📬 Contact
+For business inquiries or collaborations, please contact us via:
+📧 osmandenizsavas@hotmail.com
+📧 emindege@hotmail.com
+
+## ⚖️ License
+This project is licensed for demonstration purposes only.
+All rights reserved © Osman Deniz Savaş and Emin Dege.
