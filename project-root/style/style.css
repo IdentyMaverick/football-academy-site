@@ -1,20 +1,88 @@
+/* Font Source */
+@font-face {
+  font-family: 'Sansation';
+  src: url('../assets/fonts/Sansation_Regular.ttf') format('truetype'),
+       url('../assets/fonts/Sansation_Bold.ttf') format('truetype'),
+       url('../assets/fonts/Sansation_Bold_Italic.ttf') format('truetype'),
+       url('../assets/fonts/Sansation_Light.ttf') format('truetype'),
+       url('../assets/fonts/Sansation_Light_Italic.ttf') format('truetype');
+}
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+.navbar .nav-link {
+  position: relative;
+  overflow: hidden;
+}
+
+.navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #ffffff;
+  transition: width 0.3s ease-in-out;
+}
+
+.navbar .nav-link.active::after {
+  width: 100%;
+}
+
+
+.navbar.fixed-top {
+  position: absolute; 
+  top: 0;          
+  left: 0;         
+  width: 100%;     
+  z-index: 2;      
+  font-family: 'Sansation';
+}
+
+.navbar .nav-link.active {
+  color: #2A4251; 
+  font-weight: bold;
+}
+
+#span_s1 {
+  color: white;
+  letter-spacing: 8px;
+  font-weight:bold;
+}
+
+#span_s2 {
+  color: white;
+  letter-spacing: 30px;
+  font-weight:500;
+}
+
 #welcome {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; /* metinler alt alta gelsin */
+  flex-direction: column; 
   text-align: center;
   height: 100vh;
   background-image: url('../assets/images/goalkeeper.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  font-family: 'Sansation';
+  color: white;
+  font-size: 24px;
+}
+
+#welcome_p1 {
+  letter-spacing: 8px;
+}
+
+#welcome_p2 {
+  letter-spacing: 5px;
 }
 
 a {
@@ -25,6 +93,22 @@ a {
   background-color: #2A4251;
   color: #D8DEEB;
 }
+
+#about_h2 {
+  color: #D8DEEB;
+  letter-spacing: 10px;
+}
+
+#team_h2 {
+  color: #2A4251;
+  letter-spacing: 10px;
+}
+
+#services_h2 {
+  color: #D8DEEB;
+  letter-spacing: 10px;
+}
+
 
 .bgcolor2 {
   background-color: #A5AAB5;
@@ -57,13 +141,17 @@ button:hover {
   color: #fff;
 }
 
-#main    { display: block; }
+#main    { 
+  display: block;
+  font-family: 'Sansation';
+ }
 #contact { display: none; }
 
 #contact {
   padding-top: 200px;
   height: 100vh;
   background-color: #A5AAB5;
+  font-family: 'Sansation';
 }
 
 .contact-info p {
@@ -85,5 +173,15 @@ button:hover {
   padding: 0;
 }
 
+/*
+#contactBtn   { 
+  font-family: 'Sansation';
+  ;
+ }
+*/
 
-
+ #footers {
+  padding-top: 30px;
+  padding-bottom : 30px;
+  text-align: center;
+ }
