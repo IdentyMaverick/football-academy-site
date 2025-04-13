@@ -53,7 +53,7 @@ open index.html
 💡 No build step is required — just open the HTML file in your browser.
 
 ## 📈 Current Version
-v0.1.0-beta
+v0.x.x
 
 This version is in active development. Some sections and optimizations are still in progress.
 
