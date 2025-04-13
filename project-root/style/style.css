@@ -1,19 +1,89 @@
-section {
-    padding: 80px 20px;
-    text-align: center;
-  }
-  
-  #welcome {
-    background-image: url('');
-  }
-  
-  .about {
-    background-color: #fff;
-    color: #222;
-  }
-  
-  .skills {
-    background-color: #111;
-    color: #eee;
-  }
-  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* metinler alt alta gelsin */
+  text-align: center;
+  height: 100vh;
+  background-image: url('../assets/images/goalkeeper.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bgcolor1 {
+  background-color: #2A4251;
+  color: #D8DEEB;
+}
+
+.bgcolor2 {
+  background-color: #A5AAB5;
+  color: #2A4251
+}
+
+h2,
+p,
+footer {
+  text-align: center;
+}
+
+section{
+  padding: 50px 100px;
+}
+
+button{
+  background-color: #A5AAB5;
+  color: #2A4251;
+  border: 2px solid black ;
+  border-radius: 100px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #2A4251;
+  color: #fff;
+}
+
+#main    { display: block; }
+#contact { display: none; }
+
+#contact {
+  padding-top: 200px;
+  height: 100vh;
+  background-color: #A5AAB5;
+}
+
+.contact-info p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #2A4251;
+}
+
+.social-icons{
+  justify-content: space-evenly;
+}
+
+.social-icons i {
+  color: #2A4251;
+}
+
+.iframe{
+  border: 3px solid #2A4251;
+  padding: 0;
+}
+
+
+
